@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>knots and crosses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="javagame1.js"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>knots and crosses</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-3 col-s-3 menu">
+      <ul>
+        <li><a href="index.html">menu</a></li>
+        <li><a href="game2.html">knots and crosses</a></li>
+        <li>game 3</li>
+        <li>game 4</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-s-9">
+      <h3>knots and crosses.</h3>
+
+      <p>to play: use the number pad. 1= bottem left, 5= middle... and so on.</p>
+      <table style="table-layout:fixed;">
+        <tr>
+          <th id="7"></th>
+          <th id="8"></th>
+          <th id="9"></th>
+        </tr>
+        <tr>
+          <th id="4"></th>
+          <th id="5"></th>
+          <th id="6"></th>
+        </tr>
+        <tr>
+          <th id="1"></th>
+          <th id="2"></th>
+          <th id="3"></th>
+        </tr>
+      </table>
+      <br>
+      <input type="text" onkeypress="player1(event)">
+      <button onclick="restartbutton()">restart</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>by daniel &#169; 2020</p>
+  </div>
+
+</body>
+
+</html>
